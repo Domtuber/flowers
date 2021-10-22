@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link href="styles.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<h1>Placing an Order</h1>
+
+<div class="order_form">
+    <input type="text" name="name_field" placeholder="Name">
+    <br>
+    <br>
+    <input type="text" name="email_field" placeholder="Email address">
+    <br>
+    <br>
+    <input type="text" name="phone_field" placeholder="Phone number">
+    <br>
+    <hr class="fancy_break">
+    <br>
+    <input type="text" name="street_field" placeholder="Street address">
+    <br>
+    <br>
+    <input type="text" name="city_field" placeholder="City">
+    <br>
+    <br>
+    <input type="text" name="state_field" placeholder="State">
+    <br>
+    <br>
+    <input type="text" name="zip_field" placeholder="Zip code">
+    <br>
+    <hr class="fancy_break">
+    <br>
+    <select name="pot_drop" id="pot-select">
+        <option value=" ">--Pick Your Pot--</option>
+        <option value="Red_Earth">Red Earth</option>
+        <option value="Night_Sky">Night Sky</option>
+        <option value="Country_Planter">Country Planter</option>
+        <option value="Chinese_Clay_Flower_Pot">Chinese Clay Flower Pot</option>
+        <option value="Italian_Terracotta">Italian Terracotta</option>
+        <option value="Carved_Terracotta">Carved Terracotta</option>
+        <option value="Classic_Clay">Classic Clay</option>
+
+    </select>
+    <br>
+    <br>
+    <input type="text" name="amount_field" placeholder="Quantity">
+</div>
+<div class="questionnaire">
+    <h4>What degree of skill do you have with gardening?</h4>
+    <input type="radio" name="skill_button" id="amateur">
+    <label for="amateur">Amateur</label>
+    <br>
+    <input type="radio" name="skill_button" id="hobbyist">
+    <label for="hobbyist">Hobbyist</label>
+    <br>
+    <input type="radio" name="skill_button" id="professional">
+    <label for="professional">Professional</label>
+
+    <h4>Would you like to recieve a catalog or email newsletter?</h4>
+    <input type="checkbox" name="catalog_checkbox" id="catalog">
+    <label for="catalog">Catalog</label>
+    <br>
+    <input type="checkbox" name="newsletter_checkbox" id="newsletter">
+    <label for="newsletter">Email newsletter</label>
+    <br>
+    <input class="submit_button" type="button" value="submit">
+</div>
+
+
+<div class="nav">
+    <div class="nav_home"><a href="index.html">Home Page</a></div>
+    <div class="nav_about"><a href="aboutus.html">About Us</a></div>
+    <div class="nav_contact"><a href="contactus.html">Contact Us</a></div>
+    <div class="nav_gallery"><a href="gallery.html">Gallery of Pots</a></div>
+    <div class="nav_links"><a href="links.html">Related Links</a></div>
+    <div class="nav_ordering"><a href="ordering.html">Place an Order</a></div>
+</div>    
+</body>
+
+</html>

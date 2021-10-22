@@ -1,0 +1,171 @@
+h1 {
+    color: #440e62;
+    text-align: center;
+    font-size: 500%;
+}
+
+label {
+    color: #440e62;
+    font-weight: bold;
+}
+
+p {
+    color: #440e62;
+}
+
+a {
+    color: #440e62;
+}
+
+a:hover {
+    color: #8d6d9f;
+}
+
+body {
+    background-color: #a2d39c;
+}
+
+nav {
+    margin-left: 10%;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 20%;
+}
+
+.nav_home {
+    display: inline-block;
+    height: 80px;
+    width: 150px;
+}
+
+.nav_home:hover {
+    height: 80px;
+    width: 150px;
+}
+
+.nav_about {
+    display: inline-block;
+    height: 80px;
+    width: 150px;
+}
+
+.nav_about:hover {
+    height: 80px;
+    width: 150px;
+}
+
+.nav_contact {
+    display: inline-block;
+    height: 80px;
+    width: 150px;
+}
+
+.nav_contact:hover {
+    height: 80px;
+    width: 150px;
+}
+
+.nav_gallery {
+    display: inline-block;
+    height: 80px;
+    width: 150px;
+}
+
+.nav_gallery:hover {
+    height: 80px;
+    width: 150px;
+}
+
+.nav_links {
+    display: inline-block;
+    height: 80px;
+    width: 150px;
+}
+
+.nav_links:hover {
+    height: 80px;
+    width: 150px;
+}
+
+.nav_ordering {
+    display: inline-block;
+    height: 80px;
+    width: 150px;
+}
+
+.nav_ordering:hover {
+    height: 80px;
+    width: 150px;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.about_frannie {
+    width: 86%;
+    margin-left: 5%;
+}
+
+.about_frannie img {
+    margin-top: 15%;
+}
+
+.pot_video iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pots table {
+    width: 80%;
+    margin-left: 10%;
+    border-spacing: 0;
+}
+
+.pots td {
+    text-align: center;
+    border: solid 1px black;
+}
+
+.fancy_break {
+    width: 20%;
+    margin-left: 4.1%;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.order_form {
+    border: solid 2px black;
+    border-radius: 5%;
+    padding: 2% 0%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.order_form input, select {
+    margin-left: 15%;
+}
+
+.order_form .fancy_break, br {
+    margin-left: 38%;
+}
+
+.questionnaire {
+    margin-left: 33%;
+}
+
+.questionnaire h4 {
+    color: #440e62;
+    font-size: 130%;
+}
+
+.submit_button {
+    margin: 10% 22%;
+}
